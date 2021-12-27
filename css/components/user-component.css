@@ -1,0 +1,77 @@
+.user-component:hover {
+  background-color: var(--hover-background-color);
+}
+
+.user-component {
+  transition: var(--hover-background-transition);
+}
+
+.user-component__link,
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__link {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding: 15px var(--horizontal-space);
+}
+.user-component__column:last-child {
+  color: var(--gray-color);
+}
+
+.user-component__column:first-child {
+  color: inherit;
+}
+.user-component__column i {
+  margin-left: 5px;
+  padding-top: 3px;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+.user-component__avatar.big {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar.small {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.user-component__subtitle {
+  color: var(--gray-color);
+  font-size: 17px;
+  margin-top: 8px;
+  font-weight: 400;
+}
+.user-component__subtitle i {
+  color: tomato;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-component__column--direction-column {
+  flex-direction: column;
+  align-items: flex-end;
+}

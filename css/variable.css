@@ -1,0 +1,8 @@
+:root {
+  --yellow: #fae100;
+  --horizontal-space: 30px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --gray-color: rgba(0, 0, 0, 0.5);
+  --hover-background-color: rgba(0, 0, 0, 0.05);
+  --hover-background-transition: background-color 0.3s ease-in-out;
+}

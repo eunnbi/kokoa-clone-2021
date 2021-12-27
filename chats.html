@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Talk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column" id="clock">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <button>
+                <i class="fas fa-search fa-2x"></i>
+            </button>
+            <button>
+                <i class="far fa-comment-dots fa-2x"></i>
+            </button>
+            <button>
+                <i class="fas fa-music fa-2x"></i>
+            </button>
+            <button>
+                <a href="settings.html">
+                   <i class="fas fa-cog fa-2x"></i> 
+                </a>
+            </button>
+        </div>
+    </header>
+    <main class="main-screen chats"> 
+        <div class="user-component">
+            <a href="chat.html" class="user-component__link">
+                <div class="user-component__column">
+                    <img src="images/patrickstar.png" alt="spongebob image" class="user-component__avatar">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">DDONGG-EE</h4>
+                        <h6 class="user-component__subtitle">
+                            Hi!
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-component__column user-component__column--direction-column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a href="friends.html" class="nav__link">
+                    <span class="blind">Friends</span>
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="chats.html" class="nav__link">
+                    <span class="blind">Chats</span>
+                    <span class="chat__notification badge">1</span>
+                    <i class="fas fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="find.html" class="nav__link">
+                    <span class="blind">Search</span>
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a href="more.html" class="nav__link">
+                    <span class="blind">More</span>
+                    <span class="more__notification dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+    </div>
+</body>
+<script src="js/clock.js"></script>
+<script src="js/chatTime.js"></script>
+<script src="https://kit.fontawesome.com/1d0a4aeb76.js" crossorigin="anonymous"></script>
+</html>
